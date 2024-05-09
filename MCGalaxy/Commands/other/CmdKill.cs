@@ -31,7 +31,7 @@ namespace MCGalaxy.Commands.Misc {
             Player target = PlayerInfo.FindMatches(p, args[0]);
             
             if (target == null) {
-                if (p != null) p.HandleDeath(Block.Stone, "@p &Skilled "+ p.pronouns.Reflexive +" in " + p.pronouns.Object + " confusion");
+                if (p != null) p.HandleDeath(Block.Stone, "@p &Skilled themselves in their confusion");
                 return;
             }
             if (!CheckRank(p, data, target, "kill", false)) return;

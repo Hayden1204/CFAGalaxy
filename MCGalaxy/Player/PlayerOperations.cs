@@ -158,7 +158,7 @@ namespace MCGalaxy
             
             if (actor == who) {
                 message = message.Replace("λACTOR",  "λNICK")
-                                 .Replace("λTARGET", actor.pronouns.Object);
+                                 .Replace("λTARGET", "their");
                 Chat.MessageFrom(who, message);
             } else if (!global) {
                 message = message.Replace("λACTOR",  actor.ColoredName)

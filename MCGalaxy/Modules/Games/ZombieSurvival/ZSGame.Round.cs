@@ -183,7 +183,7 @@ namespace MCGalaxy.Modules.Games.ZS
             ZSData data = Get(p);
             if (!data.PledgeSurvive) return;
             data.PledgeSurvive = false;
-            Map.Message("&c" + p.DisplayName + " &Sbroke "+p.pronouns.Object+" pledge of not being infected.");
+            Map.Message("&c" + p.DisplayName + " &Sbroke their pledge of not being infected.");
             
             if (killer == null) {
                 p.Message("As this was an automatic infection, you have not lost any &3" + Server.Config.Currency);
