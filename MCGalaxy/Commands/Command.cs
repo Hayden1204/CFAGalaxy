@@ -113,7 +113,7 @@ namespace MCGalaxy
                          new CmdStatic(),    new CmdTorus(),      new CmdTree(),       new CmdUndo(), 
                          new CmdWriteText(), new CmdWrite());
             
-            RegisterCore(new CmdPronouns(),  new Cmd8Ball(),      new CmdAdminChat(),  new CmdAfk(), 
+            RegisterCore(new Cmd8Ball(),      new CmdAdminChat(),  new CmdAfk(), 
                          new CmdColor(),     new CmdEat(),        new CmdEmote(),      new CmdHug(), 
                          new CmdIgnore(),    new CmdInbox(),      new CmdLoginMessage(), 
                          new CmdLogoutMessage(),new CmdMe(),      new CmdNick(),       new CmdOpChat(), 
